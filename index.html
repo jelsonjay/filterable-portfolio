@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Filterable Portfolio</title>
+		<link rel="stylesheet" href="/css/styles.css" />
+	</head>
+	<body>
+		<section class="portfolio" id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="section-title col-sm-12">
+						<h3>My Projects</h3>
+					</div>
+					<br /><br />
+					<div class="part col-sm-12">
+						<div class="portfolio-nav col-sm-12" id="filter-btn">
+							<ul>
+								<li data-filter="*" class="current">
+									<span>All</span>
+								</li>
+
+								<li data-filter=".js" class="current">
+									<span>JavaScript</span>
+								</li>
+
+								<li data-filter=".react" class="current">
+									<span>React</span>
+								</li>
+								<li data-filter=".design" class="current">
+									<span>Web Design</span>
+								</li>
+								<li data-filter=".app" class="current">
+									<span>Mobile App</span>
+								</li>
+
+								<li data-filter=".nextjs" class="current">
+									<span>Nextjs</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
